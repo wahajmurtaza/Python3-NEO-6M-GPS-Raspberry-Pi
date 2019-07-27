@@ -3,7 +3,8 @@
 import serial
 
 mport = 'COM9'                     #choose your com port on which you connected your neo 6m GPS
-#mport = "/dev/ttyAMA0"            #for Raspberry Pi
+#mport = "/dev/ttyAMA0"            #for Raspberry Pi pins
+#mport = "/dev/ttyUSB0"            #for Raspberry Pi USB
 
 
 def parseGPS(data):
