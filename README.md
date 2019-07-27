@@ -11,7 +11,7 @@ It also has support for USB/TTL but the drivers must be installed properly.
 
 
 # Installation
-No isntallation is required for raspberry Pi or PC. Just python is required and pyserial library to be installed.
+No installation is required for raspberry Pi or PC. Just python is required and pyserial library to be installed.
 
 For raspberry pi serial or USB must be enable using
 'raspi-config' 
