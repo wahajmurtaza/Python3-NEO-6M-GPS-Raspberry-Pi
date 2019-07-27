@@ -18,7 +18,7 @@ def parseGPS(data):
             print ("no satellite data available")
             return
         time = s[1][0:2] + ":" + s[1][2:4] + ":" + s[1][4:6]
-        print("-----------")
+        #print("-----------")
         lat = decode(s[2])
         lon = decode(s[4])
         return  lat,lon
