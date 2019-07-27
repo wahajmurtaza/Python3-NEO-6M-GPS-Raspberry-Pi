@@ -40,7 +40,7 @@ def decode(coord):
     degdint = degdint / (10**len(degd))
     degs = degiint + degdint
     full = float(baseint) + (degs/60)
-    print(full)
+    #print(full)
     
     return full
 
