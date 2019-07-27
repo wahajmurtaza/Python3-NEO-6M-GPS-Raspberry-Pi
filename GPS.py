@@ -6,11 +6,6 @@ mport = 'COM9'                     #choose your com port on which you connected 
 #mport = "/dev/ttyAMA0"            #for Raspberry Pi
 
 
-
-
-
-
-
 def parseGPS(data):
     if data[0:6] == "$GPGGA":
         s = data.split(",")
