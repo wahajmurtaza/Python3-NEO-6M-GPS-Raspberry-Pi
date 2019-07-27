@@ -33,7 +33,7 @@ def decode(coord):
     base = l[0:i-2]
     degi = l[i-2:i]
     degd = l[i+1:]
-    print(base,"   ",degi,"   ",degd)
+    #print(base,"   ",degi,"   ",degd)
     baseint = int("".join(base))
     degiint = int("".join(degi))
     degdint = float("".join(degd))
